@@ -52,7 +52,7 @@ function lakukanLooping(arrPegawai) {
   let komentar = "";
 
   // LOOPING DENGAN MENGGUNAKAN forEach
-  arrPegawai.forEach((item) => {
+  dataYangAkanDilooping.forEach((item) => {
     // array of string berisi nama lengkap pegawai
     hasilLooping.push(`${item.namaDepan} ${item.namaBelakang}`);
 
